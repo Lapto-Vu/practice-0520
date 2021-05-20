@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: bisque;
+  height: 100vh;
+}
+
+h4,
+form {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.change {
+  background-color: brown;
+}
