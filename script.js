@@ -1,7 +1,6 @@
 const form = document.querySelector(".js-default-form"),
     formInner = form.querySelector("input"),
     welcomeMessage = document.querySelector(".js-welcome-message"),
-    body = document.querySelector("body");
 
 //로컬 스토리지 저장된 값의 이름
 const ST_DIR_NAME = "username";
@@ -12,7 +11,6 @@ const CL_SHOW = "showing";
 function saveName (text) {
     localStorage.setItem(ST_DIR_NAME, text);
 }
-
 
 function handle (clickEvent) {
     clickEvent.preventDefault();
